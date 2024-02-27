@@ -1,0 +1,225 @@
+@import './varijable';
+@import './miksini';
+
+@media screen and (max-width: 1800px) {
+    .usluge {
+        h2{
+            font-size: 20px!important;
+        }
+        p{
+            margin-top: 15px!important;
+            font-size: 19px !important;
+        }
+    }
+}
+@media screen and (max-width: 1710px) {
+    .usluge{
+        padding:5px !important ;
+    }
+    .kontaktinfo{
+        p{
+            font-size: 15px !important ;
+        }
+    }
+    .about{
+        p:nth-child(5){
+            margin-bottom: 50px !important;
+        }
+        a{
+            padding:10px 30px !important;
+        }
+    }
+    .slikanatpis{
+        width:28% !important;
+
+    }
+}
+@media screen and (max-width: 1533px) {
+    .usluge{
+        width:23% !important ;
+    }
+    .vestinaikonica{
+        i{
+            font-size: 140px !important;
+        }
+    }
+    .vestine{
+        width:23% !important ;
+    }
+    .about{
+        p{
+            font-size: 23px !important;
+            margin: 7px 0px 7px 0px !important; 
+        }
+    }
+    .slikanatpis{
+        width:30% !important;
+    }
+    .projekat{
+        width:31% !important;
+    }
+    .footersadrzaj{
+        width:25% !important;
+    }
+}
+@media screen and (max-width: 1380px) {
+    .slikanatpis{
+        width: 34% !important;
+    }
+    .kontaktinfo{
+        p{
+            font-size: 13px !important;
+            i{
+                font-size: 13px !important;
+                margin-right: 9px !important;
+            }
+        }
+    }
+}
+@media screen and (max-width:1333px) {
+    .headerokvir{
+        width:90% !important;
+    }
+    .slikacentar{
+        widtH:90% !important;
+    }
+    .aboutmemaincentar{
+        width:90% !important;
+    }
+    .skillsmaincentar{
+        width:90% !important;
+    }
+    .servicesmaincentar{
+        width:90% !important;
+    }
+    .projectsmaincentar{
+        widtH:90% !important;
+    }
+    .contactmaincentar{
+        width:90% !important;
+    }
+    .footercentar{
+        width:90% !important;
+    }
+}
+@media screen and (max-width:1190px) {
+    .footersadrzaj{
+        width:28% !important;
+    }
+    .usluge {
+        i{
+            margin-top: 5px!important;
+            margin-bottom: 5px !important;
+        }
+        h2{
+            margin-top: 5px!important;
+            margin-bottom: 5px !important;
+        }
+        p{
+            margin-top: 5px!important;
+            margin-bottom: 5px !important;
+        }
+    }
+    .about{
+        p{
+            font-size: 22px !important;
+        }
+        p:nth-child(5){
+            margin-bottom: 40px !important;
+        }
+    }
+    .vestinaikonica{
+        i{
+            font-size: 130px !important;
+        }
+    }
+    #logo{
+        width:20% !important;
+    }
+}
+@media screen and (max-width:1080px) {
+    .aboutme{
+        height:600px !important;
+    }
+    .skills{
+        height:600px !important;
+    }
+    .services{
+        height:600px !important;
+    }
+    .projects{
+        height:600px !important;
+    }
+    .aboutmemain{
+        height:550px !important;
+    }
+    .skillsmain{
+        height:550px !important;
+    }
+    .servicessmain{
+        height:550px !important;
+    }
+    .projectsmain{
+        height:550px !important;
+    }
+    .servicesmaincentar {
+        display: flex !important;
+        flex-wrap: wrap !important;
+    }
+    .usluge {
+        width: 47% !important; 
+        height: 47% !important; 
+        margin-bottom: 20px !important; 
+    }
+    .projectsmaincentar{
+        display: flex !important;
+        flex-wrap: wrap !important;
+        justify-content: space-around !important;
+    }
+    .projekat{
+        width: 41% !important; 
+        height: 48% !important; 
+        p{
+            margin-top: 15px !important;
+        }
+    }
+    .projekat:nth-child(3){
+        margin: 0 auto !important;
+    }
+    .vestine{
+        height:80% !important;
+        .vestinaikonica{
+            i{
+                font-size: 110px !important;
+            }
+        }
+    }
+    .headerdrzac:nth-child(1){
+        width:40% !important;
+    }
+    .headerdrzac:nth-child(2){
+        width:60% !important;
+    }
+    .slikanatpis{
+        width:39% !important;
+    }
+    .about{
+        p{
+            margin: 10px 0px 10px 0px !important;
+            font-size: 23px !important;
+        }
+        p:nth-child(5){
+            margin-bottom: 50px !important;
+        }
+    }
+    .mojaslika{
+        width:80% !important;
+    }
+    #logo{
+        width:25% !important;
+    }
+    .kontaktinfo{
+        width:55% !important;
+        
+    }
+}

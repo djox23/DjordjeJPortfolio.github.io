@@ -1,0 +1,630 @@
+@media screen and (max-width: 1800px) {
+  .usluge h2 {
+    font-size: 20px !important;
+  }
+  .usluge p {
+    margin-top: 15px !important;
+    font-size: 19px !important;
+  }
+}
+@media screen and (max-width: 1710px) {
+  .usluge {
+    padding: 5px !important;
+  }
+  .kontaktinfo p {
+    font-size: 15px !important;
+  }
+  .about p:nth-child(5) {
+    margin-bottom: 50px !important;
+  }
+  .about a {
+    padding: 10px 30px !important;
+  }
+  .slikanatpis {
+    width: 28% !important;
+  }
+}
+@media screen and (max-width: 1533px) {
+  .usluge {
+    width: 23% !important;
+  }
+  .vestinaikonica i {
+    font-size: 140px !important;
+  }
+  .vestine {
+    width: 23% !important;
+  }
+  .about p {
+    font-size: 23px !important;
+    margin: 7px 0px 7px 0px !important;
+  }
+  .slikanatpis {
+    width: 30% !important;
+  }
+  .projekat {
+    width: 31% !important;
+  }
+  .footersadrzaj {
+    width: 25% !important;
+  }
+}
+@media screen and (max-width: 1380px) {
+  .slikanatpis {
+    width: 34% !important;
+  }
+  .kontaktinfo p {
+    font-size: 13px !important;
+  }
+  .kontaktinfo p i {
+    font-size: 13px !important;
+    margin-right: 9px !important;
+  }
+}
+@media screen and (max-width: 1333px) {
+  .headerokvir {
+    width: 90% !important;
+  }
+  .slikacentar {
+    widtH: 90% !important;
+  }
+  .aboutmemaincentar {
+    width: 90% !important;
+  }
+  .skillsmaincentar {
+    width: 90% !important;
+  }
+  .servicesmaincentar {
+    width: 90% !important;
+  }
+  .projectsmaincentar {
+    widtH: 90% !important;
+  }
+  .contactmaincentar {
+    width: 90% !important;
+  }
+  .footercentar {
+    width: 90% !important;
+  }
+}
+@media screen and (max-width: 1190px) {
+  .footersadrzaj {
+    width: 28% !important;
+  }
+  .usluge i {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .usluge h2 {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .usluge p {
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+  }
+  .about p {
+    font-size: 22px !important;
+  }
+  .about p:nth-child(5) {
+    margin-bottom: 40px !important;
+  }
+  .vestinaikonica i {
+    font-size: 130px !important;
+  }
+  #logo {
+    width: 20% !important;
+  }
+}
+@media screen and (max-width: 1080px) {
+  .aboutme {
+    height: 600px !important;
+  }
+  .skills {
+    height: 600px !important;
+  }
+  .services {
+    height: 600px !important;
+  }
+  .projects {
+    height: 600px !important;
+  }
+  .aboutmemain {
+    height: 550px !important;
+  }
+  .skillsmain {
+    height: 550px !important;
+  }
+  .servicessmain {
+    height: 550px !important;
+  }
+  .projectsmain {
+    height: 550px !important;
+  }
+  .servicesmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+  }
+  .usluge {
+    width: 47% !important;
+    height: 47% !important;
+    margin-bottom: 20px !important;
+  }
+  .projectsmaincentar {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: space-around !important;
+  }
+  .projekat {
+    width: 41% !important;
+    height: 48% !important;
+  }
+  .projekat p {
+    margin-top: 15px !important;
+  }
+  .projekat:nth-child(3) {
+    margin: 0 auto !important;
+  }
+  .vestine {
+    height: 80% !important;
+  }
+  .vestine .vestinaikonica i {
+    font-size: 110px !important;
+  }
+  .headerdrzac:nth-child(1) {
+    width: 40% !important;
+  }
+  .headerdrzac:nth-child(2) {
+    width: 60% !important;
+  }
+  .slikanatpis {
+    width: 39% !important;
+  }
+  .about p {
+    margin: 10px 0px 10px 0px !important;
+    font-size: 23px !important;
+  }
+  .about p:nth-child(5) {
+    margin-bottom: 50px !important;
+  }
+  .mojaslika {
+    width: 80% !important;
+  }
+  #logo {
+    width: 25% !important;
+  }
+  .kontaktinfo {
+    width: 55% !important;
+  }
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  width: 100%;
+  height: 85px;
+  background-color: #252222;
+  color: #E0E0E0;
+  font-family: "Lato", sans-serif;
+}
+header .headerokvir {
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+}
+header .headerokvir .headerdrzac {
+  width: 50%;
+  height: 100%;
+}
+header .headerokvir .headerdrzac #logo {
+  width: 15%;
+  height: 100%;
+}
+header .headerokvir .headerdrzac #logo img {
+  width: 100%;
+  height: 100%;
+}
+header .headerokvir .headerdrzac nav {
+  widtH: 100%;
+  height: 100%;
+}
+header .headerokvir .headerdrzac nav ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.slika {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/sivo.jpg");
+  font-family: "Lato", sans-serif;
+  color: #E0E0E0;
+}
+.slika .slikacentar {
+  width: 80%;
+  height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.slika .slikacentar .slikanatpis {
+  width: 25%;
+  height: 100%;
+}
+.slika .slikacentar .slikanatpis h1 {
+  width: 100%;
+  margin-top: 55px;
+}
+.slika .slikacentar .slikanatpis h2 {
+  width: 100%;
+  margin-bottom: 55px;
+}
+.slika .slikacentar .slikanatpis .dugme {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+.slika .slikacentar .slikanatpis a {
+  background-color: #252222;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+
+.aboutme {
+  width: 100%;
+  height: 500px;
+  background-color: #252222;
+  color: #E0E0E0;
+  font-family: "Lato", sans-serif;
+}
+.aboutme .aboutmenatpis {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: #E0E0E0;
+}
+.aboutme .aboutmemain {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutme .aboutmemain .aboutmemaincentar {
+  width: 80%;
+  height: 90%;
+  display: flex;
+}
+.aboutme .aboutmemain .aboutmemaincentar .about {
+  width: 50%;
+  height: 100%;
+}
+.aboutme .aboutmemain .aboutmemaincentar .about p {
+  font-size: 25px;
+  margin: 10px 0px 10px 0px;
+}
+.aboutme .aboutmemain .aboutmemaincentar .about p:nth-child(5) {
+  margin-bottom: 75px;
+}
+.aboutme .aboutmemain .aboutmemaincentar .about a {
+  border: 2px solid #E0E0E0;
+  border-radius: 20px;
+  padding: 20px 40px;
+}
+.aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
+  widtH: 60%;
+  height: 100%;
+  background-image: url("../img/glava.png");
+  background-size: cover;
+  background-position: 2% 15%;
+  border-radius: 20px;
+}
+
+.skills {
+  width: 100%;
+  height: 500px;
+  background-color: #333333;
+  color: #E0E0E0;
+  font-family: "Lato", sans-serif;
+}
+.skills .skillsnatpis {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.skills .skillsmain {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .skillsmain .skillsmaincentar {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.skills .skillsmain .skillsmaincentar .vestine {
+  height: 92%;
+  width: 20%;
+  border-radius: 20px;
+  border: 2px solid #E0E0E0;
+}
+.skills .skillsmain .skillsmaincentar .vestine .vestinanaziv {
+  width: 100%;
+  height: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.skills .skillsmain .skillsmaincentar .vestine .vestinaikonica {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.skills .skillsmain .skillsmaincentar .vestine .vestinaikonica i {
+  font-size: 150px;
+}
+
+.services {
+  width: 100%;
+  height: 500px;
+  background-color: #252222;
+  color: #E0E0E0;
+  font-family: "Lato", sans-serif;
+}
+.services .servicesnatpis {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.services .servicessmain {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.services .servicessmain .servicesmaincentar {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.services .servicessmain .servicesmaincentar .usluge {
+  height: 92%;
+  width: 20%;
+  background-color: #252222;
+  border-radius: 20px;
+  border: 2px solid #E0E0E0;
+  padding: 10px;
+}
+.services .servicessmain .servicesmaincentar .usluge i {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+.services .servicessmain .servicesmaincentar .usluge h2 {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+.services .servicessmain .servicesmaincentar .usluge p {
+  margin-top: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+  font-size: 20px;
+}
+
+.projects {
+  width: 100%;
+  height: 500px;
+  background-color: #333333;
+  color: #E0E0E0;
+  font-family: "Lato", sans-serif;
+}
+.projects .projectsnatpis {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.projects .projectsmain {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.projects .projectsmain .projectsmaincentar {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.projects .projectsmain .projectsmaincentar .projekat {
+  width: 30%;
+  height: 100%;
+}
+.projects .projectsmain .projectsmaincentar .projekat img {
+  width: 100%;
+  height: 80%;
+  border-radius: 20px;
+}
+.projects .projectsmain .projectsmaincentar .projekat p {
+  margin-top: 32px;
+  text-align: center;
+}
+
+.contact {
+  width: 100%;
+  height: 600px;
+  background-color: #252222;
+  color: #E0E0E0;
+  font-family: "Lato", sans-serif;
+}
+.contact .contactnatpis {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.contact .contactmain {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactmain .contactmaincentar {
+  width: 80%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj {
+  widtH: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj form {
+  width: 90%;
+  height: 80%;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj form .forma {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj form .forma input {
+  width: 48%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #252222;
+  background-color: #E0E0E0;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj form input {
+  width: 100%;
+  height: 60px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #252222;
+  background-color: #E0E0E0;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj form textarea {
+  width: 100%;
+  height: 160px;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  border: 1px solid #252222;
+  background-color: #E0E0E0;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj form .button1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50px;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj form .button1 button {
+  width: 25%;
+  height: 60px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #252222;
+  background-color: #E0E0E0;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo {
+  width: 45%;
+  height: 40%;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p {
+  margin: 15px 0px 15px 0px;
+  font-size: 19px;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p i {
+  margin-right: 15px;
+  font-size: 20px;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p:nth-child(4) {
+  text-align: center;
+}
+.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p:nth-child(4) i {
+  margin-right: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 50px;
+  background-color: #333333;
+  color: #E0E0E0;
+  font-family: "Lato", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footercentar {
+  width: 80%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .footercentar .footersadrzaj {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .footercentar .footersadrzaj i {
+  font-size: 20px;
+  margin-right: 15px;
+}
+footer .footercentar .footersadrzaj img {
+  width: 60px;
+  height: 92%;
+}/*# sourceMappingURL=main.css.map */

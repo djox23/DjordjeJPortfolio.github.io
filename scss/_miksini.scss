@@ -1,0 +1,17 @@
+@mixin flex($display, $justify, $align){
+    display:$display;
+    justify-content:$justify;
+    align-items:$align;
+}
+@mixin blokcentar {
+    width:80%;
+    height:90%;
+}
+@mixin boje1{
+    background-color: $primarnaboja1;
+    color:$bojaslova;
+}
+@mixin boje2{
+    background-color: $primarnaboja2;
+    color:$bojaslova;
+}
