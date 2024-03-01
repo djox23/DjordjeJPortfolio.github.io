@@ -1,7 +1,7 @@
 @mixin flex($display, $justify, $align){
-    display:$display;
-    justify-content:$justify;
-    align-items:$align;
+    display:$display !important;
+    justify-content:$justify !important;
+    align-items:$align !important;
 }
 @mixin blokcentar {
     width:80%;
@@ -14,4 +14,12 @@
 @mixin boje2{
     background-color: $primarnaboja2;
     color:$bojaslova;
+}
+@mixin padanje {
+    display: flex !important;
+    flex-wrap: wrap !important;
+}
+@mixin margina5{
+    margin-top: 5px!important;
+    margin-bottom: 5px !important;
 }

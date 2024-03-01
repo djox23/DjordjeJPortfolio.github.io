@@ -2,13 +2,16 @@
 @import './miksini';
 
 @media screen and (max-width: 1800px) {
+    .dugme{
+        width: 50% !important;
+    }
     .usluge {
         h2{
-            font-size: 20px!important;
+            font-size: map-get($fontsize, dvadeset) !important;
         }
         p{
             margin-top: 15px!important;
-            font-size: 19px !important;
+            font-size: map-get($fontsize, devetnaest) !important;
         }
     }
 }
@@ -23,15 +26,16 @@
     }
     .about{
         p:nth-child(5){
-            margin-bottom: 50px !important;
+            margin-bottom: 40px !important;
         }
         a{
             padding:10px 30px !important;
         }
     }
-    .slikanatpis{
-        width:28% !important;
-
+    .slikacentar{
+        .natpis{
+            width:28% !important;
+        }
     }
 }
 @media screen and (max-width: 1533px) {
@@ -52,8 +56,10 @@
             margin: 7px 0px 7px 0px !important; 
         }
     }
-    .slikanatpis{
+    .slikacentar{
+        .natpis{
         width:30% !important;
+        }
     }
     .projekat{
         width:31% !important;
@@ -63,14 +69,16 @@
     }
 }
 @media screen and (max-width: 1380px) {
-    .slikanatpis{
-        width: 34% !important;
+    .slikacentar{
+        .natpis{
+        width:34% !important;
+        }
     }
     .kontaktinfo{
         p{
-            font-size: 13px !important;
+            font-size: map-get($fontsize, trinaest) !important;
             i{
-                font-size: 13px !important;
+                font-size: map-get($fontsize, trinaest) !important;
                 margin-right: 9px !important;
             }
         }
@@ -78,28 +86,28 @@
 }
 @media screen and (max-width:1333px) {
     .headerokvir{
-        width:90% !important;
+        width: $sirina90 !important;
     }
     .slikacentar{
-        widtH:90% !important;
+        width: $sirina90 !important;
     }
     .aboutmemaincentar{
-        width:90% !important;
+        width: $sirina90 !important;
     }
     .skillsmaincentar{
-        width:90% !important;
+        width: $sirina90 !important;
     }
     .servicesmaincentar{
-        width:90% !important;
+        width: $sirina90 !important;
     }
     .projectsmaincentar{
-        widtH:90% !important;
+        width: $sirina90 !important;
     }
     .contactmaincentar{
-        width:90% !important;
+        width: $sirina90 !important;
     }
     .footercentar{
-        width:90% !important;
+        width: $sirina90 !important;
     }
 }
 @media screen and (max-width:1190px) {
@@ -108,16 +116,13 @@
     }
     .usluge {
         i{
-            margin-top: 5px!important;
-            margin-bottom: 5px !important;
+            @include margina5;
         }
         h2{
-            margin-top: 5px!important;
-            margin-bottom: 5px !important;
+            @include margina5;
         }
         p{
-            margin-top: 5px!important;
-            margin-bottom: 5px !important;
+            @include margina5;
         }
     }
     .about{
@@ -125,7 +130,7 @@
             font-size: 22px !important;
         }
         p:nth-child(5){
-            margin-bottom: 40px !important;
+            margin-bottom: 30px !important;
         }
     }
     .vestinaikonica{
@@ -139,32 +144,31 @@
 }
 @media screen and (max-width:1080px) {
     .aboutme{
-        height:600px !important;
+        height:$visina600 !important;
     }
     .skills{
-        height:600px !important;
+        height:$visina600 !important;
     }
     .services{
-        height:600px !important;
+        height:$visina600 !important;
     }
     .projects{
-        height:600px !important;
+        height:$visina600 !important;
     }
     .aboutmemain{
-        height:550px !important;
+        height:$visina550 !important;
     }
     .skillsmain{
-        height:550px !important;
+        height:$visina550 !important;
     }
     .servicessmain{
-        height:550px !important;
+        height:$visina550 !important;
     }
     .projectsmain{
-        height:550px !important;
+        height:$visina550 !important;
     }
     .servicesmaincentar {
-        display: flex !important;
-        flex-wrap: wrap !important;
+        @include padanje;
     }
     .usluge {
         width: 47% !important; 
@@ -172,8 +176,7 @@
         margin-bottom: 20px !important; 
     }
     .projectsmaincentar{
-        display: flex !important;
-        flex-wrap: wrap !important;
+        @include padanje;
         justify-content: space-around !important;
     }
     .projekat{
@@ -200,8 +203,10 @@
     .headerdrzac:nth-child(2){
         width:60% !important;
     }
-    .slikanatpis{
+    .slikacentar{
+        .natpis{
         width:39% !important;
+        }
     }
     .about{
         p{
@@ -223,3 +228,516 @@
         
     }
 }
+@media screen and (max-width:950px) {
+    .headerdrzac:nth-child(1){
+        width:30% !important;
+        #logo{
+            width:40% !important;
+        }
+    }
+    .headerdrzac:nth-child(2){
+        width:70% !important;
+    }
+    .slikacentar{
+        .natpis{
+        width:43% !important;
+        }
+    }
+    .skillsmaincentar {
+        @include padanje;
+    }
+    .vestine {
+        width: 47% !important; 
+        height: 47% !important; 
+        margin-bottom: 20px !important; 
+    }
+    form{
+        width:100% !important;
+    }
+    .kontaktsadrzaj:nth-child(2){
+        justify-content: flex-end !important;
+    }
+    .footersadrzaj{
+        width:31% !important;
+    }
+    .footersadrzaj:nth-child(1){
+        justify-content: flex-end !important;
+    }
+    .footersadrzaj:nth-child(3){
+        justify-content: flex-start !important;
+    }
+    .button1{
+        button{
+            width:28% !important;
+        }
+    }
+}
+@media screen and (max-width:890px) {
+    .headerdrzac:nth-child(1){
+        width:20% !important;
+        #logo{
+            width:70% !important;
+        }
+    }
+    .headerdrzac:nth-child(2){
+        width:80% !important;
+    }
+    .slikacentar{
+        .natpis{
+        width:48% !important;
+        }
+    }
+    .about{
+        p{
+            margin: 10px 0px 10px 0px !important;
+            font-size: 22px !important;
+        }
+        p:nth-child(5){
+            margin-bottom: 23px !important;
+        }
+    }
+    .usluge{
+        p{
+            font-size: 17px !important;
+        }
+    }
+    .kontaktinfo{
+        width:65% !important;
+    }
+    .kontaktsadrzaj:nth-child(1){
+        align-items: flex-start !important;
+        form{
+            height:100% !important;
+            .forma{
+                @include padanje;
+                input{
+                    width:100% !important;
+                }
+            }
+            .button1{
+                button{
+                    width:30% !important;
+                }
+            }
+        }
+    }
+    .footersadrzaj{
+        p{
+            font-size: map-get($fontsize, petnaest) !important;
+        }
+        i{
+            font-size: map-get($fontsize, petnaest) !important;
+        }
+    }
+}
+@media screen and (max-width:800px) {
+    .headerdrzac:nth-child(1){
+        width:20% !important;
+        #logo{
+            width:75% !important;
+        }
+    }
+    .slikacentar{
+        @include padanje;
+        width: 50% !important;
+        height:40% !important;
+        .natpis{
+            width:100% !important;
+            height:50% !important;
+            text-align: center !important;
+            h1{
+                margin-top: 0px !important;
+            }
+            h2{
+                margin-bottom: 0px !important;
+            }
+            .dugme{
+                width: 50% !important;
+                display:flex !important;
+                justify-content: center !important;
+                align-items:center !important;
+            }
+        }
+    }
+    .usluge{
+        p{
+            font-size: 16px !important;
+        }
+    }
+    .aboutmemaincentar{
+        @include padanje;
+        .about{
+            width: 100% !important;
+            height:50% !important;
+            
+            p{
+                font-size: 17px !important;
+            }
+            p:nth-child(1){
+                margin: 0px 0px 10px 0px !important;
+            }
+            p:nth-child(5){
+                margin-bottom: 20px !important;
+            }
+            .mojaslika{
+                width:40% !important;
+                height:90% !important;
+            }
+            a{
+                padding: 5px 25px !important;
+                text-align: center !important;
+            }
+    
+        }
+        .about:nth-child(1){
+            display: flex !important;
+            justify-content: center!important;
+            align-items: flex-start!important;
+        }
+    }
+    
+}
+@media screen and (max-width:720px) {
+    header{
+        height:100px !important;
+        .headerokvir{
+            display: block !important; 
+            .headerdrzac:nth-child(1){
+                width:100% !important;
+                height: 50% !important;
+                display: flex !important;
+                justify-content: center;
+                align-items: center !important;
+                #logo{
+                    width:20% !important;
+                }
+            }
+            .headerdrzac:nth-child(2){
+                width:100% !important;
+                height: 50% !important;
+            }
+        }
+    }
+    .contact{
+        height: auto !important;
+        .contactmain{
+            height: auto !important;
+            margin-top: 30px !important;
+            .contactmaincentar{
+                @include padanje;
+                height: auto !important;
+                .kontaktsadrzaj{
+                    height: auto !important;
+                    width:100% !important;
+                    margin-bottom: 30px !important;
+                    form{
+                        padding-bottom: 10px !important;
+                    }
+                }
+                .kontaktsadrzaj:nth-child(2){
+                    display: flex !important;
+                    justify-content: center !important;
+                    align-items: center !important;
+                    .kontaktinfo{
+                        width:40% !important;
+                    }
+                }
+            }
+        }
+    }
+    .vestine{
+        .vestinaikonica{
+            i{
+                font-size: 100px !important;
+            }
+        }
+        .vestinanaziv{
+            h1{
+                font-size: 25px !important;
+            }
+        }
+    }   
+}
+@media screen and (max-width:700px) {
+    .slikacentar{
+        width:60% !important;
+    }
+    .aboutmemaincentar{
+        .about{
+             p {
+                font-size: map-get($fontsize, petnaest) !important;
+             }
+        }
+    }
+    .usluge{
+        p{
+            font-size: map-get($fontsize, petnaest) !important;
+        }
+    }
+}
+@media screen and (max-width:590px) {
+    header{
+        height: auto !important;
+        .headerokvir{
+            height:auto !important;
+            .headerdrzac:nth-child(2){
+                display: flex !important;
+                nav{
+                    ul{
+                        display: block !important;
+                        text-align: center !important;
+                        li{
+                            margin-bottom: 15px !important;
+                            
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .slikacentar{
+        width:70% !important;
+        height: auto !important;
+        .natpis:nth-child(1){
+            margin-bottom: 30px !important;
+        }
+        .natpis:nth-child(2){
+            @include padanje;
+            height: auto !important;
+            .dugme{
+                width:100% !important;
+                height:50% !important;
+                margin-bottom: 15px !important;
+            }
+        }
+    }
+    .aboutme{
+        height: auto !important;
+        .aboutmemain{
+            height: auto !important;
+            margin-top: 30px !important;
+            .aboutmemaincentar{
+                @include padanje;
+                justify-content: center !important;
+                height: auto !important;
+                .about{
+                    width:80% !important;
+                    height: 50% !important;
+                    margin-bottom: 20px !important;
+                    .mojaslika{
+                        width:50% !important;
+                    }
+                }
+            }
+        }
+    }
+    .skills{
+        height: auto !important;
+        .skillsmain{
+            height: auto !important;
+            margin-top: 30px !important;
+            .skillsmaincentar{
+                @include padanje;
+                justify-content: center !important;
+                height: auto !important;
+                .vestine{
+                    width:80% !important;
+                    height: 200px !important;
+                    margin:20px auto !important;
+                }
+            }
+        }
+    }
+    .services{
+        height: auto !important;
+        .servicessmain{
+            height: auto !important;
+            margin-top: 30px !important;
+            .servicesmaincentar{
+                @include padanje;
+                justify-content: center !important;
+                height: auto !important;
+                .usluge{
+                    width:80% !important;
+                    height: 200px !important;
+                    margin:20px auto !important;
+                }
+            }
+        }
+    }
+    .projects{
+        height: auto !important;
+        .projectsmain{
+            height: auto !important;
+            margin-top: 30px !important;
+            .projectsmaincentar{
+                @include padanje;
+                justify-content: center !important;
+                height: auto !important;
+                .projekat{
+                    width:80% !important;
+                    height: 200px !important;
+                    
+                    margin:15px auto !important;
+                }
+                .projekat:nth-child(3){
+                    margin-bottom: 30px !important;
+                }
+            }
+        }
+    }
+    form{
+        width:80% !important;
+    }
+    .contact{
+        .contactmain{
+            .contactmaincentar{
+                .kontaktsadrzaj:nth-child(2){
+                    .kontaktinfo {
+                        width: 50% !important;
+                    }
+                } 
+            }   
+        }           
+    }    
+}
+@media screen and (max-width:475px) {
+    .contact{
+        .contactmain{
+            .contactmaincentar{
+                .kontaktsadrzaj:nth-child(2){
+                    .kontaktinfo {
+                        width: 60% !important;
+                    }
+                } 
+            }   
+        }           
+    }   
+}
+@media screen and (max-width:430px) {
+    header{
+        .headerokvir{
+            .headerdrzac:nth-child(1){
+                #logo {
+                    width: 30% !important;
+                }
+            } 
+        }
+    }  
+    .vestine{
+        .vestinaikonica{
+            i{
+                font-size: 90px !important;
+            }
+        }
+        .vestinanaziv{
+            h1{
+                font-size: 20px !important;
+            }
+        }
+    }
+    .usluge{
+        p{
+            font-size: 14px !important;
+        }
+    }
+}
+@media screen and (max-width:400px) {
+    .usluge{
+        p{
+            font-size: 13px !important;
+        }
+    }
+    .contact{
+        .contactmain{
+            .contactmaincentar{
+                .kontaktsadrzaj:nth-child(1){
+                    form{
+                        .button1{
+                            button{
+                                width: 40% !important;
+                            }
+                        }
+                    }
+                }
+                .kontaktsadrzaj:nth-child(2){
+                    .kontaktinfo {
+                        width: 70% !important;
+                    }
+                } 
+            }   
+        }           
+    }   
+    footer{
+        height: auto !important;
+        .footercentar{
+            height: auto !important;
+            @include padanje;
+            .footersadrzaj{
+                width:100% !important;
+                height: auto !important;
+                display: flex !important;
+                justify-content: center !important;
+                align-items:  center !important;
+                margin-bottom: 10px !important;
+            }
+            .footersadrzaj:nth-child(1){
+                margin-top: 10px !important;
+            }
+        }
+    }
+}
+@media screen and (max-width:350px) {
+    .usluge{
+        p{
+            font-size: 12px !important;
+        }
+    }
+    .contact{
+        .contactmain{
+            .contactmaincentar{
+                .kontaktsadrzaj:nth-child(2){
+                    .kontaktinfo {
+                        width: 80% !important;
+                    }
+                } 
+            }   
+        }           
+    }   
+}
+@media screen and (max-width:326px) {
+    .usluge{
+        p{
+            font-size: 11px !important;
+        }
+    }
+    .contact{
+        .contactmain{
+            .contactmaincentar{
+                .kontaktsadrzaj:nth-child(2){
+                    .kontaktinfo {
+                        width: 85% !important;
+                    }
+                } 
+            }   
+        }           
+    }   
+}
+@media screen and (max-width:290px) {
+    .usluge{
+        p{
+            font-size: 10px !important;
+        }
+    }
+    .contact{
+        .contactmain{
+            .contactmaincentar{
+                .kontaktsadrzaj:nth-child(2){
+                    .kontaktinfo {
+                        width: 100% !important;
+                    }
+                } 
+            }   
+        }           
+    }   
+} 
