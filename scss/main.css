@@ -119,7 +119,7 @@
   }
 }
 @media screen and (max-width: 1080px) {
-  #aboutme {
+  #aboutme, #contact, #projects, #services, #skills {
     height: 600px !important;
   }
   #skills {
@@ -454,25 +454,25 @@
     height: 50% !important;
     margin-bottom: 15px !important;
   }
-  #aboutme {
+  #aboutme, #contact, #projects, #services, #skills {
     height: auto !important;
   }
-  #aboutme .aboutmemain {
+  #aboutme .aboutmemain, #contact .aboutmemain, #projects .aboutmemain, #services .aboutmemain, #skills .aboutmemain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  #aboutme .aboutmemain .aboutmemaincentar {
+  #aboutme .aboutmemain .aboutmemaincentar, #contact .aboutmemain .aboutmemaincentar, #projects .aboutmemain .aboutmemaincentar, #services .aboutmemain .aboutmemaincentar, #skills .aboutmemain .aboutmemaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  #aboutme .aboutmemain .aboutmemaincentar .about {
+  #aboutme .aboutmemain .aboutmemaincentar .about, #contact .aboutmemain .aboutmemaincentar .about, #projects .aboutmemain .aboutmemaincentar .about, #services .aboutmemain .aboutmemaincentar .about, #skills .aboutmemain .aboutmemaincentar .about {
     width: 80% !important;
     height: 50% !important;
     margin-bottom: 20px !important;
   }
-  #aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
+  #aboutme .aboutmemain .aboutmemaincentar .about .mojaslika, #contact .aboutmemain .aboutmemaincentar .about .mojaslika, #projects .aboutmemain .aboutmemaincentar .about .mojaslika, #services .aboutmemain .aboutmemaincentar .about .mojaslika, #skills .aboutmemain .aboutmemaincentar .about .mojaslika {
     width: 50% !important;
   }
   #skills {
@@ -630,12 +630,17 @@ a {
   text-decoration: none;
 }
 
+html {
+  background-color: #252222;
+}
+
 header {
   width: 100%;
   height: 85px;
   background-color: #252222;
   color: #E0E0E0;
   font-family: "Lato", sans-serif;
+  animation: pomeranjenadole 0.8s ease-in-out;
 }
 header .headerokvir {
   width: 80%;
@@ -674,6 +679,14 @@ header .headerokvir .headerdrzac nav ul li:hover {
   border-bottom: 2px solid #E0E0E0;
 }
 
+@keyframes pomeranjenadole {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
 #slika {
   width: 100%;
   height: 600px;
@@ -694,6 +707,7 @@ header .headerokvir .headerdrzac nav ul li:hover {
 #slika .slikacentar .natpis {
   width: 25%;
   height: 100%;
+  animation: pomeranjeudesno 0.8s ease-in-out;
 }
 #slika .slikacentar .natpis h1 {
   width: 100%;
@@ -703,10 +717,19 @@ header .headerokvir .headerdrzac nav ul li:hover {
   width: 100%;
   margin-bottom: 55px;
 }
+@keyframes pomeranjeudesno {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 #slika .slikacentar .natpis:nth-child(2) {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
+  animation: pomeranjeulevo 0.8s ease-in-out;
 }
 #slika .slikacentar .natpis:nth-child(2) .dugme {
   height: 100%;
@@ -725,15 +748,23 @@ header .headerokvir .headerdrzac nav ul li:hover {
   background-color: #E0E0E0;
   color: #252222;
 }
+@keyframes pomeranjeulevo {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
 
-#aboutme {
+#aboutme, #contact, #projects, #services, #skills {
   width: 100%;
   height: 500px;
   background-color: #252222;
   color: #E0E0E0;
   font-family: "Lato", sans-serif;
 }
-#aboutme .natpis {
+#aboutme .natpis, #contact .natpis, #projects .natpis, #services .natpis, #skills .natpis {
   width: 100%;
   height: 50px;
   display: flex !important;
@@ -741,62 +772,59 @@ header .headerokvir .headerdrzac nav ul li:hover {
   align-items: flex-end !important;
   color: #E0E0E0;
 }
-#aboutme .aboutmemain {
+#aboutme .aboutmemain, #contact .aboutmemain, #projects .aboutmemain, #services .aboutmemain, #skills .aboutmemain {
   width: 100%;
   height: 450px;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-#aboutme .aboutmemain .aboutmemaincentar {
+#aboutme .aboutmemain .aboutmemaincentar, #contact .aboutmemain .aboutmemaincentar, #projects .aboutmemain .aboutmemaincentar, #services .aboutmemain .aboutmemaincentar, #skills .aboutmemain .aboutmemaincentar {
   width: 80%;
   height: 90%;
   display: flex;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about {
+#aboutme .aboutmemain .aboutmemaincentar .about, #contact .aboutmemain .aboutmemaincentar .about, #projects .aboutmemain .aboutmemaincentar .about, #services .aboutmemain .aboutmemaincentar .about, #skills .aboutmemain .aboutmemaincentar .about {
   width: 50%;
   height: 100%;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about p {
+#aboutme .aboutmemain .aboutmemaincentar .about p, #contact .aboutmemain .aboutmemaincentar .about p, #projects .aboutmemain .aboutmemaincentar .about p, #services .aboutmemain .aboutmemaincentar .about p, #skills .aboutmemain .aboutmemaincentar .about p {
   font-size: 25px;
   margin: 10px 0px 10px 0px;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about p:nth-child(5) {
+#aboutme .aboutmemain .aboutmemaincentar .about p:nth-child(5), #contact .aboutmemain .aboutmemaincentar .about p:nth-child(5), #projects .aboutmemain .aboutmemaincentar .about p:nth-child(5), #services .aboutmemain .aboutmemaincentar .about p:nth-child(5), #skills .aboutmemain .aboutmemaincentar .about p:nth-child(5) {
   margin-bottom: 50px;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about .a {
+#aboutme .aboutmemain .aboutmemaincentar .about .a, #contact .aboutmemain .aboutmemaincentar .about .a, #projects .aboutmemain .aboutmemaincentar .about .a, #services .aboutmemain .aboutmemaincentar .about .a, #skills .aboutmemain .aboutmemaincentar .about .a {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about .a a {
+#aboutme .aboutmemain .aboutmemaincentar .about .a a, #contact .aboutmemain .aboutmemaincentar .about .a a, #projects .aboutmemain .aboutmemaincentar .about .a a, #services .aboutmemain .aboutmemaincentar .about .a a, #skills .aboutmemain .aboutmemaincentar .about .a a {
   border: 2px solid #E0E0E0;
   border-radius: 20px;
   padding: 20px 40px;
   transition: background-color 0.5s, color 0.5s;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about .a a:hover {
+#aboutme .aboutmemain .aboutmemaincentar .about .a a:hover, #contact .aboutmemain .aboutmemaincentar .about .a a:hover, #projects .aboutmemain .aboutmemaincentar .about .a a:hover, #services .aboutmemain .aboutmemaincentar .about .a a:hover, #skills .aboutmemain .aboutmemaincentar .about .a a:hover {
   background-color: #E0E0E0;
   color: #252222;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
+#aboutme .aboutmemain .aboutmemaincentar .about .mojaslika, #contact .aboutmemain .aboutmemaincentar .about .mojaslika, #projects .aboutmemain .aboutmemaincentar .about .mojaslika, #services .aboutmemain .aboutmemaincentar .about .mojaslika, #skills .aboutmemain .aboutmemaincentar .about .mojaslika {
   widtH: 55%;
   height: 100%;
   border-radius: 20px;
 }
-#aboutme .aboutmemain .aboutmemaincentar .about .mojaslika img {
+#aboutme .aboutmemain .aboutmemaincentar .about .mojaslika img, #contact .aboutmemain .aboutmemaincentar .about .mojaslika img, #projects .aboutmemain .aboutmemaincentar .about .mojaslika img, #services .aboutmemain .aboutmemaincentar .about .mojaslika img, #skills .aboutmemain .aboutmemaincentar .about .mojaslika img {
   width: 100%;
   height: 100%;
   border-radius: 20px;
 }
 
 #skills {
-  width: 100%;
-  height: 500px;
   background-color: #333333;
   color: #E0E0E0;
-  font-family: "Lato", sans-serif;
 }
 #skills .natpis {
   width: 100%;
@@ -847,13 +875,6 @@ header .headerokvir .headerdrzac nav ul li:hover {
   transform: scale(0.95);
 }
 
-#services {
-  width: 100%;
-  height: 500px;
-  background-color: #252222;
-  color: #E0E0E0;
-  font-family: "Lato", sans-serif;
-}
 #services .natpis {
   width: 100%;
   height: 50px;
@@ -910,11 +931,8 @@ header .headerokvir .headerdrzac nav ul li:hover {
 }
 
 #projects {
-  width: 100%;
-  height: 500px;
   background-color: #333333;
   color: #E0E0E0;
-  font-family: "Lato", sans-serif;
 }
 #projects .natpis {
   width: 100%;
@@ -945,6 +963,10 @@ header .headerokvir .headerdrzac nav ul li:hover {
   width: 100%;
   height: 80%;
   border-radius: 20px;
+  transition: transform 0.2s ease;
+}
+#projects .projectsmain .projectsmaincentar .projekat img:hover {
+  transform: scale(1.03);
 }
 #projects .projectsmain .projectsmaincentar .projekat p {
   margin-top: 32px;
@@ -952,11 +974,7 @@ header .headerokvir .headerdrzac nav ul li:hover {
 }
 
 #contact {
-  width: 100%;
   height: 600px;
-  background-color: #252222;
-  color: #E0E0E0;
-  font-family: "Lato", sans-serif;
 }
 #contact .natpis {
   width: 100%;
