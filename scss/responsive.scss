@@ -143,16 +143,16 @@
     }
 }
 @media screen and (max-width:1080px) {
-    .aboutme{
+    #aboutme{
         height:$visina600 !important;
     }
-    .skills{
+    #skills{
         height:$visina600 !important;
     }
-    .services{
+    #services{
         height:$visina600 !important;
     }
-    .projects{
+    #projects{
         height:$visina600 !important;
     }
     .aboutmemain{
@@ -418,7 +418,7 @@
             }
         }
     }
-    .contact{
+    #contact{
         height: auto !important;
         .contactmain{
             height: auto !important;
@@ -511,7 +511,7 @@
             }
         }
     }
-    .aboutme{
+    #aboutme{
         height: auto !important;
         .aboutmemain{
             height: auto !important;
@@ -531,7 +531,7 @@
             }
         }
     }
-    .skills{
+    #skills{
         height: auto !important;
         .skillsmain{
             height: auto !important;
@@ -548,7 +548,7 @@
             }
         }
     }
-    .services{
+    #services{
         height: auto !important;
         .servicessmain{
             height: auto !important;
@@ -565,7 +565,7 @@
             }
         }
     }
-    .projects{
+    #projects{
         height: auto !important;
         .projectsmain{
             height: auto !important;
@@ -589,7 +589,7 @@
     form{
         width:80% !important;
     }
-    .contact{
+    #contact{
         .contactmain{
             .contactmaincentar{
                 .kontaktsadrzaj:nth-child(2){
@@ -602,7 +602,7 @@
     }    
 }
 @media screen and (max-width:475px) {
-    .contact{
+    #contact{
         .contactmain{
             .contactmaincentar{
                 .kontaktsadrzaj:nth-child(2){
@@ -612,6 +612,14 @@
                 } 
             }   
         }           
+    }
+    .footersadrzaj{
+        p{
+            font-size: map-get($fontsize, trinaest) !important;
+        }
+        i{
+            font-size: map-get($fontsize, trinaest) !important;
+        }
     }   
 }
 @media screen and (max-width:430px) {
@@ -648,7 +656,7 @@
             font-size: 13px !important;
         }
     }
-    .contact{
+    #contact{
         .contactmain{
             .contactmaincentar{
                 .kontaktsadrzaj:nth-child(1){
@@ -693,7 +701,7 @@
             font-size: 12px !important;
         }
     }
-    .contact{
+    #contact{
         .contactmain{
             .contactmaincentar{
                 .kontaktsadrzaj:nth-child(2){
@@ -711,7 +719,7 @@
             font-size: 11px !important;
         }
     }
-    .contact{
+    #contact{
         .contactmain{
             .contactmaincentar{
                 .kontaktsadrzaj:nth-child(2){
@@ -729,7 +737,7 @@
             font-size: 10px !important;
         }
     }
-    .contact{
+    #contact{
         .contactmain{
             .contactmaincentar{
                 .kontaktsadrzaj:nth-child(2){

@@ -119,16 +119,16 @@
   }
 }
 @media screen and (max-width: 1080px) {
-  .aboutme {
+  #aboutme {
     height: 600px !important;
   }
-  .skills {
+  #skills {
     height: 600px !important;
   }
-  .services {
+  #services {
     height: 600px !important;
   }
-  .projects {
+  #projects {
     height: 600px !important;
   }
   .aboutmemain {
@@ -374,32 +374,32 @@
     width: 100% !important;
     height: 50% !important;
   }
-  .contact {
+  #contact {
     height: auto !important;
   }
-  .contact .contactmain {
+  #contact .contactmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .contact .contactmain .contactmaincentar {
+  #contact .contactmain .contactmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     height: auto !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj {
     height: auto !important;
     width: 100% !important;
     margin-bottom: 30px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj form {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj form {
     padding-bottom: 10px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 40% !important;
   }
   .vestine .vestinaikonica i {
@@ -454,94 +454,100 @@
     height: 50% !important;
     margin-bottom: 15px !important;
   }
-  .aboutme {
+  #aboutme {
     height: auto !important;
   }
-  .aboutme .aboutmemain {
+  #aboutme .aboutmemain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .aboutme .aboutmemain .aboutmemaincentar {
+  #aboutme .aboutmemain .aboutmemaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .aboutme .aboutmemain .aboutmemaincentar .about {
+  #aboutme .aboutmemain .aboutmemaincentar .about {
     width: 80% !important;
     height: 50% !important;
     margin-bottom: 20px !important;
   }
-  .aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
+  #aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
     width: 50% !important;
   }
-  .skills {
+  #skills {
     height: auto !important;
   }
-  .skills .skillsmain {
+  #skills .skillsmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .skills .skillsmain .skillsmaincentar {
+  #skills .skillsmain .skillsmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .skills .skillsmain .skillsmaincentar .vestine {
+  #skills .skillsmain .skillsmaincentar .vestine {
     width: 80% !important;
     height: 200px !important;
     margin: 20px auto !important;
   }
-  .services {
+  #services {
     height: auto !important;
   }
-  .services .servicessmain {
+  #services .servicessmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .services .servicessmain .servicesmaincentar {
+  #services .servicessmain .servicesmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .services .servicessmain .servicesmaincentar .usluge {
+  #services .servicessmain .servicesmaincentar .usluge {
     width: 80% !important;
     height: 200px !important;
     margin: 20px auto !important;
   }
-  .projects {
+  #projects {
     height: auto !important;
   }
-  .projects .projectsmain {
+  #projects .projectsmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .projects .projectsmain .projectsmaincentar {
+  #projects .projectsmain .projectsmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .projects .projectsmain .projectsmaincentar .projekat {
+  #projects .projectsmain .projectsmaincentar .projekat {
     width: 80% !important;
     height: 200px !important;
     margin: 15px auto !important;
   }
-  .projects .projectsmain .projectsmaincentar .projekat:nth-child(3) {
+  #projects .projectsmain .projectsmaincentar .projekat:nth-child(3) {
     margin-bottom: 30px !important;
   }
   form {
     width: 80% !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 50% !important;
   }
 }
 @media screen and (max-width: 475px) {
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 60% !important;
+  }
+  .footersadrzaj p {
+    font-size: 13px !important;
+  }
+  .footersadrzaj i {
+    font-size: 13px !important;
   }
 }
 @media screen and (max-width: 430px) {
@@ -562,10 +568,10 @@
   .usluge p {
     font-size: 13px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(1) form .button1 button {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(1) form .button1 button {
     width: 40% !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 70% !important;
   }
   footer {
@@ -592,7 +598,7 @@
   .usluge p {
     font-size: 12px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 80% !important;
   }
 }
@@ -600,7 +606,7 @@
   .usluge p {
     font-size: 11px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 85% !important;
   }
 }
@@ -608,7 +614,7 @@
   .usluge p {
     font-size: 10px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 100% !important;
   }
 }/*# sourceMappingURL=responsive.css.map */

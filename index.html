@@ -1,6 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="keywords" content="Đorđe Jović, HTML, Developer, UI/UX Designer, front-end, SEO">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Đorđe Jović, an experienced Front-end Developer and UI/UX Designer, specializes in creating responsive, user-centered web designs and interfaces. Explore the portfolio to see projects, skills, and services.">
+        <meta name="copyright" content="Copyright © 2024 Đorđe Jović">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
@@ -14,24 +19,24 @@
             <div class="headerokvir">
             <div class="headerdrzac">
                 <div id="logo">
-                    <a href="#"><img src="img/logo.jpg"/></a>
+                    <a href="index.html"><img src="img/logo.jpg" alt="logo1"/></a>
                 </div>
             </div>
             <div class="headerdrzac">
                 <nav>
                 <ul>
-                    <li><a href="#"> HOME </a></li> 
-                    <li><a href="#"> ABOUT ME </a></li>
-                    <li><a href="#"> SKILLS </a></li>
-                    <li><a href="#"> SERVICES </a></li>
-                    <li><a href="#"> PROJECTS </a></li>
-                    <li><a href="#"> CONTACT </a></li>
+                    <li><a href="index.html"> HOME </a></li> 
+                    <li><a href="#aboutme"> ABOUT ME </a></li>
+                    <li><a href="#skills"> SKILLS </a></li>
+                    <li><a href="#services"> SERVICES </a></li>
+                    <li><a href="#projects"> PROJECTS </a></li>
+                    <li><a href="#contact"> CONTACT </a></li>
                 </ul>
                 </nav>
             </div>
             </div>
         </header>
-        <div class="slika">
+        <section id="slika">
             <div class="slikacentar">
                 <div class="natpis">
                     <h1>Đorđe Jović</h1>
@@ -39,25 +44,23 @@
                 </div>
                 <div class="natpis">
                     <div class="dugme">
-                        <a href="#" class="button">CONTACT</a>
+                        <a href="#contact" class="button">CONTACT</a>
                     </div>
                     <div class="dugme">
-                        <a href="#" class="button">PROJECTS</a>
+                        <a href="#projects" class="button">PROJECTS</a>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="aboutme">
+        </section>
+        <section id="aboutme">
             <div class="natpis">
-                <div class="aboutmenatpiscentar">
-                    <h1>About me</h1>
-                </div>
+                <h1>About me</h1>
             </div>
             <div class="aboutmemain">
                 <div class="aboutmemaincentar">
                     <div class="about">
                         <div class="mojaslika">
-                            <img src="img/glava4.jpg"/>
+                            <img src="img/pho.jpg" alt="personal"/>
                         </div>
                     </div>
                     <div class="about">
@@ -67,12 +70,12 @@
                         <p> Email: djordje.jovic.100.23@ict.edu.rs</p>
                         <p> Phone number: 0563563251</p>
                         <p> Education: Economic and Trade School and ICT College</p>
-                        <div class="a"><a href="#" class="button">DOWNLOAD CV</a></div>
+                        <div class="a"><a href="https://en.wikipedia.org/wiki/Curriculum_vitae" class="button" target="_blank">DOWNLOAD CV</a></div>
                     </div>
                 </div>  
             </div>
-        </div>
-        <div class="skills">
+        </section>
+        <section id="skills">
             <div class="natpis">
                 <h1>Skills</h1>
             </div>
@@ -112,8 +115,8 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="services">
+        </section>
+        <section id="services">
             <div class="natpis">
                 <h1>Services</h1>
             </div> 
@@ -153,8 +156,8 @@
                     </div>
                 </div>
             </div>         
-        </div>
-        <div class="projects">
+        </section>
+        <section id="projects">
             <div class="natpis">
                 <h1> Projects </h1>
             </div>
@@ -162,26 +165,26 @@
                 <div class="projectsmaincentar">
                     <div class="projekat">
  
-                            <img src="img/projekat1.png"/>
+                            <img src="img/projekat1.jpg" alt="pro1"/>
                         
                         <p>HTML, SASS, JavaScript</p>
                     </div>
                     <div class="projekat">
                         
-                            <img src="img/projekat2.png"/>
+                            <img src="img/projekat2.jpg" alt="pro2"/>
                         
                         <p>HTML, CSS, Bootstrap</p>
                     </div>
                     <div class="projekat">
                         
-                            <img src="img/projekat3.png"/>
+                            <a href="https://djox23.github.io/djolle23.github.io/" target="_blank"><img src="img/projekat3.jpg" alt="cafesite"/></a>
                         
                         <p>HTML, CSS</p>
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="contact">
+        </section>
+        <section id="contact">
             <div class="natpis">
                 <h1>Contact</h1>
             </div>
@@ -215,20 +218,20 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         <footer>
             <div class="footercentar">
             <div class="footersadrzaj">
                 <a href="scss/main.scss" target="_blank"><i class="fa-brands fa-sass"></i></a>
                 <a href="scss/responsive.scss" target="_blank"><i class="fa-solid fa-file-code"></i></a>
-                <i class="fa-solid fa-sitemap"></i>
-                <i class="fa-regular fa-file"></i>
+                <a href="sitemap.xml" target="_blank"><i class="fa-solid fa-sitemap"></i></a>
+                <a href="robots.txt" target="_blank"><i class="fa-regular fa-file"></i></a>
             </div>
             <div class="footersadrzaj">
-                <a href="#"><img src="img/logo2.jpg"/></a>
+                <a href="#"><img src="img/logo2.jpg" alt="logo2"/></a>
             </div>
             <div class="footersadrzaj">
-                <p>Đorđe Jović 100/23</p>
+                <p>Đorđe Jović 100/23 &copy;</p>
             </div>
             </div>
         </footer>

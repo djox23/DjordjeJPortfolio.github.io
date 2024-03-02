@@ -119,16 +119,16 @@
   }
 }
 @media screen and (max-width: 1080px) {
-  .aboutme {
+  #aboutme {
     height: 600px !important;
   }
-  .skills {
+  #skills {
     height: 600px !important;
   }
-  .services {
+  #services {
     height: 600px !important;
   }
-  .projects {
+  #projects {
     height: 600px !important;
   }
   .aboutmemain {
@@ -374,32 +374,32 @@
     width: 100% !important;
     height: 50% !important;
   }
-  .contact {
+  #contact {
     height: auto !important;
   }
-  .contact .contactmain {
+  #contact .contactmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .contact .contactmain .contactmaincentar {
+  #contact .contactmain .contactmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     height: auto !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj {
     height: auto !important;
     width: 100% !important;
     margin-bottom: 30px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj form {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj form {
     padding-bottom: 10px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) {
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 40% !important;
   }
   .vestine .vestinaikonica i {
@@ -454,94 +454,100 @@
     height: 50% !important;
     margin-bottom: 15px !important;
   }
-  .aboutme {
+  #aboutme {
     height: auto !important;
   }
-  .aboutme .aboutmemain {
+  #aboutme .aboutmemain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .aboutme .aboutmemain .aboutmemaincentar {
+  #aboutme .aboutmemain .aboutmemaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .aboutme .aboutmemain .aboutmemaincentar .about {
+  #aboutme .aboutmemain .aboutmemaincentar .about {
     width: 80% !important;
     height: 50% !important;
     margin-bottom: 20px !important;
   }
-  .aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
+  #aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
     width: 50% !important;
   }
-  .skills {
+  #skills {
     height: auto !important;
   }
-  .skills .skillsmain {
+  #skills .skillsmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .skills .skillsmain .skillsmaincentar {
+  #skills .skillsmain .skillsmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .skills .skillsmain .skillsmaincentar .vestine {
+  #skills .skillsmain .skillsmaincentar .vestine {
     width: 80% !important;
     height: 200px !important;
     margin: 20px auto !important;
   }
-  .services {
+  #services {
     height: auto !important;
   }
-  .services .servicessmain {
+  #services .servicessmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .services .servicessmain .servicesmaincentar {
+  #services .servicessmain .servicesmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .services .servicessmain .servicesmaincentar .usluge {
+  #services .servicessmain .servicesmaincentar .usluge {
     width: 80% !important;
     height: 200px !important;
     margin: 20px auto !important;
   }
-  .projects {
+  #projects {
     height: auto !important;
   }
-  .projects .projectsmain {
+  #projects .projectsmain {
     height: auto !important;
     margin-top: 30px !important;
   }
-  .projects .projectsmain .projectsmaincentar {
+  #projects .projectsmain .projectsmaincentar {
     display: flex !important;
     flex-wrap: wrap !important;
     justify-content: center !important;
     height: auto !important;
   }
-  .projects .projectsmain .projectsmaincentar .projekat {
+  #projects .projectsmain .projectsmaincentar .projekat {
     width: 80% !important;
     height: 200px !important;
     margin: 15px auto !important;
   }
-  .projects .projectsmain .projectsmaincentar .projekat:nth-child(3) {
+  #projects .projectsmain .projectsmaincentar .projekat:nth-child(3) {
     margin-bottom: 30px !important;
   }
   form {
     width: 80% !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 50% !important;
   }
 }
 @media screen and (max-width: 475px) {
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 60% !important;
+  }
+  .footersadrzaj p {
+    font-size: 13px !important;
+  }
+  .footersadrzaj i {
+    font-size: 13px !important;
   }
 }
 @media screen and (max-width: 430px) {
@@ -562,10 +568,10 @@
   .usluge p {
     font-size: 13px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(1) form .button1 button {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(1) form .button1 button {
     width: 40% !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 70% !important;
   }
   footer {
@@ -592,7 +598,7 @@
   .usluge p {
     font-size: 12px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 80% !important;
   }
 }
@@ -600,7 +606,7 @@
   .usluge p {
     font-size: 11px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 85% !important;
   }
 }
@@ -608,7 +614,7 @@
   .usluge p {
     font-size: 10px !important;
   }
-  .contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
+  #contact .contactmain .contactmaincentar .kontaktsadrzaj:nth-child(2) .kontaktinfo {
     width: 100% !important;
   }
 }
@@ -616,6 +622,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -660,8 +667,14 @@ header .headerokvir .headerdrzac nav ul {
   align-items: center !important;
   list-style-type: none;
 }
+header .headerokvir .headerdrzac nav ul li {
+  transition: all 45ms ease-in;
+}
+header .headerokvir .headerdrzac nav ul li:hover {
+  border-bottom: 2px solid #E0E0E0;
+}
 
-.slika {
+#slika {
   width: 100%;
   height: 600px;
   display: flex !important;
@@ -671,51 +684,56 @@ header .headerokvir .headerdrzac nav ul {
   font-family: "Lato", sans-serif;
   color: #E0E0E0;
 }
-.slika .slikacentar {
+#slika .slikacentar {
   width: 80%;
   height: 200px;
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
 }
-.slika .slikacentar .natpis {
+#slika .slikacentar .natpis {
   width: 25%;
   height: 100%;
 }
-.slika .slikacentar .natpis h1 {
+#slika .slikacentar .natpis h1 {
   width: 100%;
   margin-top: 55px;
 }
-.slika .slikacentar .natpis h2 {
+#slika .slikacentar .natpis h2 {
   width: 100%;
   margin-bottom: 55px;
 }
-.slika .slikacentar .natpis:nth-child(2) {
+#slika .slikacentar .natpis:nth-child(2) {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
 }
-.slika .slikacentar .natpis:nth-child(2) .dugme {
+#slika .slikacentar .natpis:nth-child(2) .dugme {
   height: 100%;
   width: 50%;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.slika .slikacentar .natpis:nth-child(2) a {
+#slika .slikacentar .natpis:nth-child(2) a {
   background-color: #252222;
   border-radius: 20px;
   padding: 20px 40px;
+  transition: background-color 0.5s, color 0.5s;
+}
+#slika .slikacentar .natpis:nth-child(2) a:hover {
+  background-color: #E0E0E0;
+  color: #252222;
 }
 
-.aboutme {
+#aboutme {
   width: 100%;
   height: 500px;
   background-color: #252222;
   color: #E0E0E0;
   font-family: "Lato", sans-serif;
 }
-.aboutme .natpis {
+#aboutme .natpis {
   width: 100%;
   height: 50px;
   display: flex !important;
@@ -723,247 +741,261 @@ header .headerokvir .headerdrzac nav ul {
   align-items: flex-end !important;
   color: #E0E0E0;
 }
-.aboutme .aboutmemain {
+#aboutme .aboutmemain {
   width: 100%;
   height: 450px;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.aboutme .aboutmemain .aboutmemaincentar {
+#aboutme .aboutmemain .aboutmemaincentar {
   width: 80%;
   height: 90%;
   display: flex;
 }
-.aboutme .aboutmemain .aboutmemaincentar .about {
+#aboutme .aboutmemain .aboutmemaincentar .about {
   width: 50%;
   height: 100%;
 }
-.aboutme .aboutmemain .aboutmemaincentar .about p {
+#aboutme .aboutmemain .aboutmemaincentar .about p {
   font-size: 25px;
   margin: 10px 0px 10px 0px;
 }
-.aboutme .aboutmemain .aboutmemaincentar .about p:nth-child(5) {
+#aboutme .aboutmemain .aboutmemaincentar .about p:nth-child(5) {
   margin-bottom: 50px;
 }
-.aboutme .aboutmemain .aboutmemaincentar .about a {
-  border: 2px solid #E0E0E0;
-  border-radius: 20px;
-  padding: 20px 40px;
-}
-.aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
-  widtH: 55%;
-  height: 100%;
-  border-radius: 20px;
-}
-.aboutme .aboutmemain .aboutmemaincentar .about .mojaslika img {
-  width: 100%;
-  height: 100%;
-  border-radius: 20px;
-}
-.aboutme .a {
+#aboutme .aboutmemain .aboutmemaincentar .about .a {
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
+#aboutme .aboutmemain .aboutmemaincentar .about .a a {
+  border: 2px solid #E0E0E0;
+  border-radius: 20px;
+  padding: 20px 40px;
+  transition: background-color 0.5s, color 0.5s;
+}
+#aboutme .aboutmemain .aboutmemaincentar .about .a a:hover {
+  background-color: #E0E0E0;
+  color: #252222;
+}
+#aboutme .aboutmemain .aboutmemaincentar .about .mojaslika {
+  widtH: 55%;
+  height: 100%;
+  border-radius: 20px;
+}
+#aboutme .aboutmemain .aboutmemaincentar .about .mojaslika img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
 
-.skills {
+#skills {
   width: 100%;
   height: 500px;
   background-color: #333333;
   color: #E0E0E0;
   font-family: "Lato", sans-serif;
 }
-.skills .natpis {
+#skills .natpis {
   width: 100%;
   height: 50px;
   display: flex !important;
   justify-content: center !important;
   align-items: flex-end !important;
 }
-.skills .skillsmain {
+#skills .skillsmain {
   width: 100%;
   height: 450px;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.skills .skillsmain .skillsmaincentar {
+#skills .skillsmain .skillsmaincentar {
   width: 80%;
   height: 90%;
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
 }
-.skills .skillsmain .skillsmaincentar .vestine {
+#skills .skillsmain .skillsmaincentar .vestine {
   height: 92%;
   width: 20%;
   border-radius: 20px;
   border: 2px solid #E0E0E0;
+  transition: ease-in 0.3s;
 }
-.skills .skillsmain .skillsmaincentar .vestine .vestinanaziv {
+#skills .skillsmain .skillsmaincentar .vestine .vestinanaziv {
   width: 100%;
   height: 20%;
   display: flex !important;
   justify-content: center !important;
   align-items: flex-start !important;
 }
-.skills .skillsmain .skillsmaincentar .vestine .vestinaikonica {
+#skills .skillsmain .skillsmaincentar .vestine .vestinaikonica {
   width: 100%;
   height: 80%;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.skills .skillsmain .skillsmaincentar .vestine .vestinaikonica i {
+#skills .skillsmain .skillsmaincentar .vestine .vestinaikonica i {
   font-size: 150px;
 }
+#skills .skillsmain .skillsmaincentar .vestine:hover {
+  transform: scale(0.95);
+}
 
-.services {
+#services {
   width: 100%;
   height: 500px;
   background-color: #252222;
   color: #E0E0E0;
   font-family: "Lato", sans-serif;
 }
-.services .natpis {
+#services .natpis {
   width: 100%;
   height: 50px;
   display: flex !important;
   justify-content: center !important;
   align-items: flex-end !important;
 }
-.services .servicessmain {
+#services .servicessmain {
   width: 100%;
   height: 450px;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.services .servicessmain .servicesmaincentar {
+#services .servicessmain .servicesmaincentar {
   width: 80%;
   height: 90%;
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
 }
-.services .servicessmain .servicesmaincentar .usluge {
+#services .servicessmain .servicesmaincentar .usluge {
   height: 92%;
   width: 20%;
   background-color: #252222;
   border-radius: 20px;
   border: 2px solid #E0E0E0;
   padding: 10px;
+  transition: all 0.3s;
 }
-.services .servicessmain .servicesmaincentar .usluge i {
+#services .servicessmain .servicesmaincentar .usluge i {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
   display: block;
   font-size: 20px;
 }
-.services .servicessmain .servicesmaincentar .usluge h2 {
+#services .servicessmain .servicesmaincentar .usluge h2 {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
   display: block;
 }
-.services .servicessmain .servicesmaincentar .usluge p {
+#services .servicessmain .servicesmaincentar .usluge p {
   margin-top: 20px;
   margin-bottom: 10px;
   text-align: center;
   display: block;
   font-size: 20px;
+}
+#services .servicessmain .servicesmaincentar .usluge:hover {
+  transform: translateY(-8px);
+  box-shadow: 6px 6px 1px #E0E0E0;
 }
 
-.projects {
+#projects {
   width: 100%;
   height: 500px;
   background-color: #333333;
   color: #E0E0E0;
   font-family: "Lato", sans-serif;
 }
-.projects .natpis {
+#projects .natpis {
   width: 100%;
   height: 50px;
   display: flex !important;
   justify-content: center !important;
   align-items: flex-end !important;
 }
-.projects .projectsmain {
+#projects .projectsmain {
   width: 100%;
   height: 450px;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.projects .projectsmain .projectsmaincentar {
+#projects .projectsmain .projectsmaincentar {
   width: 80%;
   height: 90%;
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
 }
-.projects .projectsmain .projectsmaincentar .projekat {
+#projects .projectsmain .projectsmaincentar .projekat {
   width: 30%;
   height: 100%;
 }
-.projects .projectsmain .projectsmaincentar .projekat img {
+#projects .projectsmain .projectsmaincentar .projekat img {
   width: 100%;
   height: 80%;
   border-radius: 20px;
 }
-.projects .projectsmain .projectsmaincentar .projekat p {
+#projects .projectsmain .projectsmaincentar .projekat p {
   margin-top: 32px;
   text-align: center;
 }
 
-.contact {
+#contact {
   width: 100%;
   height: 600px;
   background-color: #252222;
   color: #E0E0E0;
   font-family: "Lato", sans-serif;
 }
-.contact .natpis {
+#contact .natpis {
   width: 100%;
   height: 50px;
   display: flex !important;
   justify-content: center !important;
   align-items: flex-end !important;
 }
-.contact .contactmain {
+#contact .contactmain {
   width: 100%;
   height: 550px;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.contact .contactmain .contactmaincentar {
+#contact .contactmain .contactmaincentar {
   width: 80%;
   height: 90%;
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj {
   widtH: 50%;
   height: 100%;
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj form {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form {
   width: 90%;
   height: 80%;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj form .forma {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form .forma {
   display: flex !important;
   justify-content: space-between !important;
   align-items: center !important;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj form .forma input {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form .forma input {
   width: 48%;
   height: 60px;
   padding: 10px;
@@ -972,7 +1004,7 @@ header .headerokvir .headerdrzac nav ul {
   border: 1px solid #252222;
   background-color: #E0E0E0;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj form input {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form input {
   width: 100%;
   height: 60px;
   padding: 10px;
@@ -981,47 +1013,53 @@ header .headerokvir .headerdrzac nav ul {
   border: 1px solid #252222;
   background-color: #E0E0E0;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj form textarea {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form textarea {
   width: 100%;
   height: 160px;
   padding: 10px;
   border-radius: 20px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   border: 1px solid #252222;
   background-color: #E0E0E0;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj form .button1 {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form .button1 {
   display: flex !important;
   justify-content: center !important;
   align-items: center !important;
   width: 100%;
   height: 50px;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj form .button1 button {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form .button1 button {
   width: 25%;
   height: 60px;
   text-align: center;
   padding: 10px;
   border-radius: 20px;
-  border: 1px solid #252222;
+  border: 1px solid #E0E0E0;
   background-color: #E0E0E0;
+  cursor: pointer;
+  transition: background-color 0.5s, color 0.5s;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj form .button1 button:hover {
+  background-color: #252222;
+  color: #E0E0E0;
+}
+#contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo {
   width: 45%;
   height: 40%;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p {
   margin: 15px 0px 15px 0px;
   font-size: 19px;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p i {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p i {
   margin-right: 15px;
   font-size: 20px;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p:nth-child(4) {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p:nth-child(4) {
   text-align: center;
 }
-.contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p:nth-child(4) i {
+#contact .contactmain .contactmaincentar .kontaktsadrzaj .kontaktinfo p:nth-child(4) i {
   margin-right: 20px;
 }
 

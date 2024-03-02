@@ -6,6 +6,7 @@
     padding:0px;
     margin:0px;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 a {
     color: inherit; 
@@ -40,12 +41,18 @@ header{
                     height:100%;
                     @include flex (flex, space-between, center);
                     list-style-type: none;
+                    li{
+                        transition: all 45ms ease-in;
+                    }
+                    li:hover{
+                        border-bottom: 2px solid $bojaslova;
+                    }
                 }
             }
         }   
     }
 }
-.slika {
+#slika {
     width: 100%;
     height: 600px;
     @include flex (flex,center,center);
@@ -76,16 +83,22 @@ header{
                 height:100%;
                 width: 50% ;
                 @include flex (flex, center, center);  
+                
             }
             a{
                 background-color: $primarnaboja1;
                 border-radius: 20px;
                 padding:20px 40px;
+                transition: background-color 0.5s, color 0.5s;
+            }
+            a:hover{
+                background-color: $bojaslova;
+                color: $primarnaboja1;
             }
         }
     }
 }
-.aboutme{
+#aboutme{
     width:100%;
     height:500px;
     @include boje1;
@@ -113,12 +126,23 @@ header{
                 p:nth-child(5){
                     margin-bottom: 50px;
                 }
-                a{
-                    border:2px solid $bojaslova;
-                    border-radius: 20px;
-                    padding:20px 40px;
-                   
+                .a{
+                    width:100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    a{
+                        border:2px solid $bojaslova;
+                        border-radius: 20px;
+                        padding:20px 40px;
+                        transition: background-color 0.5s, color 0.5s;
+                    }
+                    a:hover{
+                        background-color: $bojaslova;
+                        color: $primarnaboja1;
+                    }
                 }
+                
                 .mojaslika{
                     widtH:55%;
                     height:100%;
@@ -132,14 +156,9 @@ header{
             }
         }
     }
-    .a{
-        width:100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    
 }
-.skills{
+#skills{
     width:100%;
     height:500px;
     @include boje2;
@@ -161,11 +180,11 @@ header{
                 width:20%;
                 border-radius: 20px;
                 border:2px solid $bojaslova;
+                transition: ease-in 0.3s;
                 .vestinanaziv{
                     width:100%;
                     height:20%;
                     @include flex (flex,center,flex-start);
-                    
                 }
                 .vestinaikonica{
                     width:100%;
@@ -176,10 +195,13 @@ header{
                     }
                 }
             }
+            .vestine:hover {
+                transform: scale(0.95);
+            }
         }
     }
 }
-.services{
+#services{
     width:100%;
     height:500px;
     @include boje1;
@@ -203,6 +225,7 @@ header{
                 border-radius: 20px;
                 border:2px solid $bojaslova;
                 padding:10px;
+                transition: all 0.3s;
                 i{
                     margin-top: 20px;
                     margin-bottom: 10px;
@@ -224,10 +247,14 @@ header{
                     font-size: map-get($fontsize, dvadeset);
                 }
             }
+            .usluge:hover {
+                transform: translateY(-8px);
+                box-shadow: 6px 6px 1px $bojaslova;
+            }
         }
     }
 }
-.projects{
+#projects{
     width:100%;
     height:500px;
     @include boje2;
@@ -260,7 +287,7 @@ header{
         }
     }
 }
-.contact{
+#contact{
     width:100%;
     height:600px;
     @include boje1;
@@ -310,7 +337,7 @@ header{
                         height:160px;
                         padding:10px;
                         border-radius:20px;
-                        margin-bottom: 10px;
+                        margin-bottom: 15px;
                         border:1px solid $primarnaboja1;
                         background-color: $bojaslova;
                     }
@@ -324,8 +351,14 @@ header{
                             text-align: center;
                             padding:10px;
                             border-radius:20px;
-                            border:1px solid $primarnaboja1;
+                            border:1px solid $bojaslova;
                             background-color: $bojaslova;
+                            cursor: pointer;
+                            transition: background-color 0.5s, color 0.5s;
+                        }
+                        button:hover{
+                            background-color: $primarnaboja1;
+                            color: $bojaslova;
                         }
                     }
                 }
@@ -395,6 +428,7 @@ $fontsize: (
 $sirina90: 90% ;
 $visina600: 600px;
 $visina550: 550px;
+
 
 
 @mixin flex($display, $justify, $align){
